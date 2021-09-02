@@ -15,7 +15,7 @@ jobs:
         with:
           publish: true
           imageName: kabasijiniu/mycqhttp
-          dockerFile: docker/Dockerfile
+          dockerFile: Dockerfile
           platform: linux/amd64,linux/arm64,linux/arm/v7
           tag: latest
           dockerUser: ${{ secrets.DOCKER_USERNAME }}
